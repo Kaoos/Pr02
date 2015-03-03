@@ -11,8 +11,9 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class miniaturas extends Fragment {
+public class miniaturas extends Fragment implements View.OnClickListener {
 
+    View parentView = null;
 
     public miniaturas() {
         // Required empty public constructor
@@ -22,9 +23,22 @@ public class miniaturas extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_miniaturas, container, false);
+
+
+        parentView = inflater.inflate(R.layout.fragment_miniaturas, container, false);
+
+        parentView.findViewById(R.id.imageButton1).setOnClickListener(this);
+
+
+        return parentView;
+
+
+
     }
 
 
+    @Override
+    public void onClick(View v) {
+
+    }
 }

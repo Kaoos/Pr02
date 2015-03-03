@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class inicio extends Activity {
+public class inicio extends Activity  implements ReciveDatosFrag {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +16,6 @@ public class inicio extends Activity {
         if (savedInstanceState !=null) {
             return;
         }
-        // esto permite manipular los fragments
 
         getFragmentManager()
                 .beginTransaction()
@@ -50,5 +49,11 @@ public class inicio extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void cambiaIMG(String msg) {
+        //TextView t = (TextView) findViewById(R.id.textViewTitulo);
+        //t.setText(msg);
     }
 }

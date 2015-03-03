@@ -10,10 +10,12 @@
 
 
 
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/containerMiniaturas"
+        android:id="@+id/containerGaleria"
         android:layout_weight="0.20">
 
     </RelativeLayout>
@@ -21,7 +23,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/containerGaleria"
+        android:id="@+id/containerMiniaturas"
         android:layout_weight="0.80">
 
     </RelativeLayout>
