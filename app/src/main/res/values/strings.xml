@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Galeria</string>
+    <string name="app_name">Sport Coupé GTE Concept</string>
     <string name="action_settings">Settings</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="des">La firma de Wolfsburgo continúa fiel a la idea de diseñar prototipos con alma de coupé sin importar el número de puertas ni el segmento al que pertenece. El Sport Coupé GTE es uno de sus ejercicios mejor logrados;la silueta se encuentra bien definida gracias a la luneta trasera cuya inclinación permite fusionarla con la caída prolongada del techo para conseguir una apariencia atlética y de fuerte sabor deportivo.</string>
 
 </resources>

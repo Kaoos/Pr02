@@ -4,11 +4,6 @@
     >
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/hello_world"
-        android:text="@string/app_name" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
 
     <ImageView
         android:layout_width="wrap_content"
@@ -16,6 +11,16 @@
         android:id="@+id/imagenGaleria"
 
         android:background="@drawable/img01"
-        android:layout_gravity="center" />
+        android:layout_gravity="center_horizontal|top"
+         />
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:text="@string/des"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimDes"
+        android:layout_gravity="left|bottom"
+        android:textColor="#fffbfff4"
+        />
 
 </FrameLayout>

@@ -13,7 +13,7 @@ import android.view.ViewGroup;
  * A simple {@link Fragment} subclass.
  */
 public class miniaturas extends Fragment implements View.OnClickListener {
-    public String IdBotton;
+    public String  idImg;
     View parentView = null;
     ReciveDatosFrag  Callback;
     public miniaturas() {
@@ -43,20 +43,9 @@ public class miniaturas extends Fragment implements View.OnClickListener {
 
 
 
-            switch(v.getId()) {
 
-                case R.id.imageButton1:
-                    IdBotton = "1";
-                    break;
-                case R.id.imageButton2:
-                   IdBotton = "2";
-                    break;
-               case R.id.imageButton3:
-                   IdBotton ="3";
-                   break;
-            }
 
-            Callback.cambiaIMG(""+IdBotton);
+            Callback.cambiaIMG(v.getId());
 
     }
 
