@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class inicio extends Activity  implements ReciveDatosFrag {
@@ -53,7 +54,7 @@ public class inicio extends Activity  implements ReciveDatosFrag {
 
     @Override
     public void cambiaIMG(String msg) {
-        //TextView t = (TextView) findViewById(R.id.textViewTitulo);
-        //t.setText(msg);
+        TextView t = (TextView) findViewById(R.id.hello_world);
+        t.setText(msg);
     }
 }
